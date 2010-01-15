@@ -1,0 +1,27 @@
+{
+   "name": "Ninjawords Lookup",
+   "version": "1.2.1.1",
+   "description": "Ninjawords Lookup - Lookup definitions in Ninjawords with ease.",
+   "permissions": [ "tabs", "http://suggestqueries.google.com/*", "http://ninjawords.com/*" ],
+   "options_page": "options.html",
+   "background_page": "background.html",
+   "icons": {
+      "128": "img/ninjawords.gif",
+      "16": "img/ninjawords.gif",
+      "32": "img/ninjawords.gif",
+      "48": "img/ninjawords.gif"
+   },
+   "browser_action": {
+      "default_icon": "img/ninjawords.gif",
+      "default_title": "Ninjawords Lookup",
+      "popup": "search.html"
+   },
+   "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["css/selectedLookup.css"],
+      "js": ["lib/3rdparty/jquery.js", "lib/3rdparty/shortcut.js", "lib/content_script.js"],
+      "run_at": "document_end"
+    }
+   ]
+}

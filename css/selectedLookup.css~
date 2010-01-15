@@ -1,0 +1,180 @@
+#definition {
+  position: absolute;
+  z-index: 1000;
+  border: 1px solid #7a7a7a;
+  background: white url("http://ninjawords.com/images/starbg.gif") no-repeat scroll center -52px;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  text-align:center;
+  margin:0;
+  padding: 2px;
+}
+
+#ninjamode {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 1000;
+  border: 1px solid #7a7a7a;
+  background-color: #ffffff;
+  padding: 2px;
+}
+
+#defintion .unselectable {
+  -moz-user-select: none;
+}
+#definition a {
+  color:#3b3555;
+  color:#534b78;
+
+  /* no focus lines on any of our links. */
+  outline-style:none;
+  outline-width:0;
+  outline:none;
+}
+#definition a:visited {
+  color:#707070;
+}
+#definition a:hover {
+  color:#d50000;
+}
+#definition a:active {
+  /* Give feedback on mousedown of links. */
+  color:black;
+}
+
+#defintion #results{
+  text-align:left;
+  /*If you use margins here, IE will shift the search area
+  down when you click random. Pretty amazing bug. */
+  padding-top:15px;
+  margin:0;
+  position:relative;
+  min-height:60px;
+}
+
+#definition .word,
+#definition .loading,
+#definition .fetch-error {
+  text-align:left;
+  padding-top:6px;
+  padding-bottom:6px;
+}
+#definition .fetch-error{
+  font-style:italic;
+}
+
+#definition .title-word{
+  font-weight:bold;
+  margin-bottom:3px;
+}
+
+/* Needed for IE6 to center the HR */
+#definition div.hr-container {
+  text-align:center;
+}
+
+#definition hr{
+  width:90%;
+  width:80%;
+  border-width:0px;
+  color:#c5c5c5;
+  background-color:#c5c5c5;
+  height:1px;
+  margin-top:4px;
+  margin-bottom:4px;
+}
+
+#definition .synonyms .more{
+  margin-left:.5em;
+  font-size:.85em;
+  font-style:italic;
+}
+
+#definition .entry a,
+#definition .synonyms a { text-decoration: none; }
+
+#definition .entry a:hover,
+#definition .synonyms a:hover { text-decoration: underline; }
+
+#definition .article,
+#definition .synonym-title {
+  color:#444;
+  font-size:15px;
+}
+/* The synonyms are indented. The second line of the synonyms (see manganimous) should be vertically
+   aligned with the start of the definition text. */
+#defintion .synonyms {
+  margin-top:6px;
+  margin-left:32px;
+  text-indent:-26px;
+}
+#defintion dd.entry,
+#defintion dd.article {
+  margin-left:7px;
+}
+
+#defintion .definition {
+  margin-left:25px;
+  margin-bottom:3px;
+}
+#defintion .example {
+  color:#555;
+  font-style:italic;
+  margin-left:35px;
+}
+/* IE6 has the examples running up against the definition on the next line. */
+#defintion  .example { margin-bottom:3px; }
+#defintion span.definition-marker {
+  position:relative;
+  margin-left:-14px;
+  margin-right:7px;
+  top:4px;
+  height:10px;
+}
+
+/* Suggestion message shown when there's a dictionary correction */
+#defintion .did-you-mean{
+  font-style:italic;
+  color:#60597b;
+  margin-bottom:6px;
+}
+#defintion .correct-word {
+  font-weight:bold;
+  color:black;
+}
+#defintion h1,
+#defintion h2,
+#defintion h3 {
+  font-size:1.45em;
+  font-family: "Georgia","Times New Roman", serif;
+  font-weight:normal;
+}
+#defintion h2,
+#defintion h3,
+#defintion h4{  margin-bottom:10px;}
+
+#defintion h2{
+  margin-top:25px;
+  font-size:1.8em;
+  padding-bottom:3px;
+  border-bottom:1px solid #aaaaaa;
+}
+#defintion .screenshot{
+  margin-bottom:10px;
+}
+#defintion ul{
+  margin-left:0;
+  padding-left:20px;
+}
+
+#defintion p{
+  margin:5px 0 5px 10px;
+}
+#defintion .copy table{
+  margin-left:5px;
+}
+
+#defintion .copy{
+  line-height:140%;
+} 

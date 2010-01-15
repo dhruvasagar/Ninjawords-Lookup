@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="http://ninjawords.com/app.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <table width="100%">
+        <tr>
+          <td width="100%">
+            <input id="searchBox" type="text" value="" />
+          </td>
+          <td width="50">
+            <img src="search_btn.png" id="searchButton" title="Search"></img>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" width="100%" height="100%">
+            <div id="result"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
