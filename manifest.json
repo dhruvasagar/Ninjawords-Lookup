@@ -1,6 +1,6 @@
 {
    "name": "Ninjawords Lookup",
-   "version": "1.2.1.1",
+   "version": "1.2.2",
    "description": "Ninjawords Lookup - Lookup definitions in Ninjawords with ease.",
    "permissions": [ "tabs", "http://suggestqueries.google.com/*", "http://ninjawords.com/*" ],
    "options_page": "options.html",
