@@ -29,7 +29,7 @@
 	 font-family:arial;
 	 color:#000000;
 	 margin-top:3px;
-	 background-image:url('favicon.ico');
+	 background-image:url('../favicon.ico');
 	 background-repeat:no-repeat;
 	 background-position:4px 5px;
 	 padding-left:25px;

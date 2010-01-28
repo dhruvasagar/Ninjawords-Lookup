@@ -3,8 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="http://ninjawords.com/app.css" />
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="lib/3rdparty/jquery.js"></script>
+    <script type="text/javascript" src="lib/script.js"></script>
   </head>
   <body>
     <div id="container">
@@ -14,7 +14,7 @@
             <input id="searchBox" type="text" value="" />
           </td>
           <td width="50">
-            <img src="search_btn.png" id="searchButton" title="Search"></img>
+            <img src="img/search_btn.png" id="searchButton" title="Search"/>
           </td>
         </tr>
         <tr>

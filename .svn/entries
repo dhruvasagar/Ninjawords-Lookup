@@ -74,6 +74,30 @@ file
 
 deleted
 
+ninjawords.gif
+file
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
 background.html
 file
 4
@@ -107,30 +131,6 @@ dhruva.sagar
 
 
 669
-
-ninjawords.gif
-file
-4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-deleted
 
 style.css
 file
@@ -207,40 +207,6 @@ file
 
 deleted
 
-favicon.ico
-file
-2
-
-
-
-2010-01-08T16:01:10.000000Z
-0ff2073eb32d2d2c2b201fbc83d3d3e2
-2010-01-09T03:57:48.172587Z
-2
-dhruva.sagar
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-715
-
 options.html
 file
 6
@@ -275,19 +241,53 @@ dhruva.sagar
 
 1526
 
+favicon.ico
+file
+2
+
+
+
+2010-01-08T16:01:10.000000Z
+0ff2073eb32d2d2c2b201fbc83d3d3e2
+2010-01-09T03:57:48.172587Z
+2
+dhruva.sagar
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+715
+
 lib
 dir
 
 search.html
 file
-4
+7
 
 
 
-2010-01-10T04:27:06.000000Z
-df63e07cf63a2705b4051b7be0940e46
-2010-01-10T07:28:53.379482Z
-4
+2010-01-21T22:56:16.000000Z
+33c846a539f5d64967249446d85580fd
+2010-01-21T23:17:16.722062Z
+7
 dhruva.sagar
 
 
@@ -310,9 +310,9 @@ dhruva.sagar
 
 
 
-829
+845
 
-content_script.js
+selectedLookup.css
 file
 4
 
@@ -336,7 +336,7 @@ file
 
 deleted
 
-selectedLookup.css
+content_script.js
 file
 4
 
@@ -389,14 +389,14 @@ dir
 
 manifest.json
 file
-6
+7
 
 
 
-2010-01-10T07:43:17.000000Z
-afff0daee616a6d72e86094351894d6f
-2010-01-10T07:44:36.070736Z
-6
+2010-01-21T23:09:57.000000Z
+464326dd1248a9b36848d12944f7f598
+2010-01-21T23:17:16.722062Z
+7
 dhruva.sagar
 
 
@@ -419,5 +419,5 @@ dhruva.sagar
 
 
 
-873
+871
 

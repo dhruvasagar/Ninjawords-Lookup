@@ -54,9 +54,6 @@
         color: green;
         text-align: center;
   }
-  #submit, #cancel {
-        text-align: center;
-  }
 
   .fd {
 	 position:absolute;
